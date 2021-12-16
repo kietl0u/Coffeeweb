@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Booking</title>
+    <link rel="stylesheet" href="cafe.css"/>
+  </head>
+  <body>
+    <div class="content">
+      <div class="nav-bar">
+          <div class="logo">
+              <h1> <a href="Jame's Coffee shop.html"> Jame's Coffee Shop </a></h1>
+          </div>
+
+          <div class="menu-bar">
+              <ul>
+                <li><a href="Jame's Coffee shop.html">HOME</a></li>
+                <li><a href="Menu.html">MENU</a></li>
+                <li><a href="Coffee Process.html">COFFEE PROCESS</a></li>
+                <li><a href="About Us.html">ABOUT US</a></li>
+              </ul>
+          </div>
+      </div>
+
+        <section class = "banner">
+            <h2>BOOK YOUR TABLE HERE</h2>
+            <div class = "card-container">
+            <div class = "card-img">
+                <img src="booking.png" width="500" height="400" >
+            </div>
+
+            <div class = "card-content">
+                
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "sunday">Sunday</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Hour</option>
+                            <option value = "10">10: 00</option>
+                            <option value = "10">12: 00</option>
+                            <option value = "10">14: 00</option>
+                            <option value = "10">16: 00</option>
+                            <option value = "10">18: 00</option>
+                            <option value = "10">20: 00</option>
+                            <option value = "10">22: 00</option>
+                        </select>
+                    </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            <input type = "submit" value = "BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <ul class="social">
+                    <li><a href="#"><img src="facebook.png"></a></li>
+                    <li><a href="#"><img src="twitter.png"></a></li>
+                    <li><a href="#"><img src="instagram.png"></a></li>
+          
+            </div>
+        </section>
+    </div>
+  </body>
+</html>
